@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="density">~240</string>
+    <string name="bucket_name">HDPI</string>
+    <string name="description">High Density</string>
+</resources>

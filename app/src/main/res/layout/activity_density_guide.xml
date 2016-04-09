@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:columnCount="3"
+    app:useDefaultMargins="true"
+    tools:context=".DensityGuideActivity">
+
+    <TextView android:text="Density Bucket Name" />
+
+    <TextView
+        android:text="@string/bucket_name"
+        app:layout_columnSpan="2" />
+
+    <TextView android:text="Description" />
+
+    <TextView
+        android:text="@string/description"
+        app:layout_columnSpan="2" />
+
+    <TextView android:text="Pixels per Inch" />
+
+    <TextView
+        android:id="@+id/text_dpi"
+        app:layout_columnSpan="2" />
+
+    <TextView android:text="Screen Width" />
+
+    <TextView android:id="@+id/width_pixels" />
+
+    <TextView android:text="px" />
+
+
+    <Space />
+
+    <TextView android:id="@+id/width_dps" />
+
+    <TextView android:text="dp" />
+
+
+
+    <TextView android:text="Screen Height" />
+
+
+    <TextView android:id="@+id/height_pixels" />
+
+    <TextView android:text="px" />
+
+    <Space />
+
+    <TextView android:id="@+id/height_dps" />
+
+    <TextView android:text="dp" />
+
+
+    <TextView android:text="48 pixel square" />
+
+    <View
+        android:layout_width="48px"
+        android:layout_height="48px"
+        android:background="?attr/colorAccent"
+        app:layout_columnSpan="2" />
+
+    <TextView android:text="48 dp square" />
+
+    <View
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="?attr/colorAccent"
+        app:layout_columnSpan="2" />
+
+</android.support.v7.widget.GridLayout>

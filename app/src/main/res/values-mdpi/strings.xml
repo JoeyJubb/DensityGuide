@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="density">~160</string>
+    <string name="bucket_name">MDPI</string>
+    <string name="description">Medium Density</string>
+</resources>
